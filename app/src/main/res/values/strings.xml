@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">wagba</string>
+    <string-array name="restaurants">
+        <item>Mcdonalds</item>
+        <item>El Dahan</item>
+
+
+    </string-array>
+    <string-array name="meals">
+        <item>Big Tasty</item>
+        <item>McRoyale</item>
+        <item>fish fillet</item>
+        <item>Happy meal</item>
+        <item>Chicken BBQ</item>
+        <item>Chicken Ranch</item>
+        <item>Pepsi Can</item>
+        <item>Small Water</item>
+        <item>Choco Cinnabon</item>
+        <item>Caramel Pecan</item>
+
+    </string-array>
+    <string name="title_activity_history">HistoryActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="place_order">Place Order</string>
+
+</resources>

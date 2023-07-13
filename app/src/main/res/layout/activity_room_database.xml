@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Profile">
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/edittext_background"
+        android:hint="Name"
+        android:padding="20sp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/edittext_background"
+        android:hint="Phone Number"
+        android:padding="20sp"
+        android:singleLine="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="30sp"
+        android:id="@+id/address"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/edittext_background"
+        android:hint="Address"
+        android:padding="20sp"
+        android:singleLine="true" />
+
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30sp"
+        android:background="@drawable/btn_orange"
+        android:paddingHorizontal="30sp"
+        android:text="SAVE"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/btn_getData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30sp"
+        android:background="@drawable/btn_orange"
+        android:paddingHorizontal="30sp"
+        android:text="GET DATA"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_history"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30sp"
+        android:background="@drawable/btn_orange"
+        android:paddingHorizontal="30sp"
+        android:text="History"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+</LinearLayout>

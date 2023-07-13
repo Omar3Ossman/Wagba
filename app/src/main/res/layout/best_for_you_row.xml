@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/restaurant"
+        android:layout_width="180dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kfc" />
+
+    <TextView
+        android:id="@+id/restaurant_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="KFC"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/restaurant" />
+
+    <TextView
+        android:id="@+id/delivery_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="45 minutes"
+        app:layout_constraintBottom_toBottomOf="@+id/restaurant_name"
+        app:layout_constraintEnd_toEndOf="@+id/restaurant"
+        app:layout_constraintTop_toTopOf="@+id/restaurant_name" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="@+id/restaurant_name"
+        app:layout_constraintTop_toBottomOf="@+id/restaurant_name" />
+
+    <ImageView
+        android:id="@+id/cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/delivery_time"
+        app:layout_constraintTop_toBottomOf="@+id/delivery_time"
+        app:srcCompat="@drawable/ic_shopping_cart" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
